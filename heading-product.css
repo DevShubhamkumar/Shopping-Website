@@ -1,0 +1,198 @@
+/* Global styles */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  /* Innovative design for main heading */
+  .main-heading {
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 40px;
+    color: #3b3537;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: fadeInDown 1.5s ease-out, glowAnimation 3s infinite alternate;
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Add large border and shadow to sections */
+  .section {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 12px solid #f44712;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Innovative design for subheadings */
+  .section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    color: #3498db;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+    position: relative;
+    letter-spacing: 2px;
+    font-weight: bold;
+    animation: glowAnimation 1s infinite alternate;
+  }
+  
+  .section h2:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 2px;
+    background-color: #e91e63;
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .section h2:hover {
+    color:#f44712;
+  }
+  
+  .section h2:hover:before {
+    transform: translateX(-50%) scaleX(1.2);
+  }
+  
+  /* Add updated border color on hover */
+  .section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border: 12px solid #3498db;
+  }
+  
+  /* Animation for main heading glow */
+  @keyframes glowAnimation {
+    0% {
+      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+      text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.7);
+    }
+    100% {
+      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    }
+  }
+  
+  /* Glowing effect for sections on hover */
+  .section:hover {
+    animation: glowAnimation 1s infinite alternate;
+  }
+  
+  /* Remove link underlines */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .section {
+      margin-bottom: 20px;
+    }
+  }
+  /* Add margin or padding to separate the sections */
+.section {
+    padding: 20px;
+    margin-bottom: 30px; /* Add margin between sections */
+    /* rest of your styles */
+  }
+  
+  /* Add margin or padding only to the first section to separate from the main heading */
+  .section:first-child {
+    margin-top: 30px;
+  }
+  
+  /* Add margin or padding only to the last section to separate from the sections below */
+  .section:last-child {
+    margin-bottom: 0; /* You can set this to 0 if you want no margin at the bottom */
+  }
+  
+  /* Add margin or padding to the main heading to separate from the first section */
+  .main-heading {
+    margin-top: 30px;
+  }
+  
+
+
+  /* Footer Styles */
+.footer {
+  background: linear-gradient(135deg, #007bff, #00bfff);
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 36px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+ul.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.list-unstyled li {
+  margin-bottom: 10px;
+}
+
+ul.list-unstyled li i {
+  margin-right: 10px;
+}
+
+/* Add a hover effect for links */
+ul.list-unstyled li a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+
