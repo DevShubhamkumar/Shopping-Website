@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="product.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Watches</title>
+</head>
+<body>
+    <!-- Product 1 -->
+<div class="col-md-4 mb-4">
+    <div class="card product-card">
+      <div id="men-watches-carousel1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="men-watch1.jpg" class="d-block w-100" alt="Men's Watch 1">
+          </div>
+          <div class="carousel-item">
+            <img src="men-watch1_2.jpg" class="d-block w-100" alt="Men's Watch 1">
+          </div>
+          <!-- Add more carousel items for Product 1 -->
+        </div>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Classic Leather Watch</h5>
+        <p class="card-text">Elegant leather watch for men.</p>
+        <p class="card-price">$99.99</p>
+        <button class="btn btn-primary btn-block" onclick="addToCart('Classic Leather Watch', 99.99)">
+          Add to Cart <i class="bi bi-cart3"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Product 2 -->
+  <div class="col-md-4 mb-4">
+    <div class="card product-card">
+      <div id="men-watches-carousel2" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="men-watch2.jpg" class="d-block w-100" alt="Men's Watch 2">
+          </div>
+          <div class="carousel-item">
+            <img src="men-watch2_2.jpg" class="d-block w-100" alt="Men's Watch 2">
+          </div>
+          <!-- Add more carousel items for Product 2 -->
+        </div>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Chronograph Steel Watch</h5>
+        <p class="card-text">Stylish chronograph watch with steel band.</p>
+        <p class="card-price">$149.99</p>
+        <button class="btn btn-primary btn-block" onclick="addToCart('Chronograph Steel Watch', 149.99)">
+          Add to Cart <i class="bi bi-cart3"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Product 3 -->
+  <div class="col-md-4 mb-4">
+    <div class="card product-card">
+      <div id="men-watches-carousel3" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="men-watch3.jpg" class="d-block w-100" alt="Men's Watch 3">
+          </div>
+          <div class="carousel-item">
+            <img src="men-watch3_2.jpg" class="d-block w-100" alt="Men's Watch 3">
+          </div>
+          <!-- Add more carousel items for Product 3 -->
+        </div>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Sporty Silicone Watch</h5>
+        <p class="card-text">Durable sports watch with silicone strap.</p>
+        <p class="card-price">$79.99</p>
+        <button class="btn btn-primary btn-block" onclick="addToCart('Sporty Silicone Watch', 79.99)">
+          Add to Cart <i class="bi bi-cart3"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Product 4 -->
+  <div class="col-md-4 mb-4">
+    <div class="card product-card">
+      <div id="men-watches-carousel4" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="men-watch4.jpg" class="d-block w-100" alt="Men's Watch 4">
+          </div>
+          <div class="carousel-item">
+            <img src="men-watch4_2.jpg" class="d-block w-100" alt="Men's Watch 4">
+          </div>
+          <!-- Add more carousel items for Product 4 -->
+        </div>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Aviator Pilot Watch</h5>
+        <p class="card-text">Aviation-inspired pilot watch with leather strap.</p>
+        <p class="card-price">$129.99</p>
+        <button class="btn btn-primary btn-block" onclick="addToCart('Aviator Pilot Watch', 129.99)">
+          Add to Cart <i class="bi bi-cart3"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Product 5 -->
+  <div class="col-md-4 mb-4">
+    <div class="card product-card">
+      <div id="men-watches-carousel5" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="men-watch5.jpg" class="d-block w-100" alt="Men's Watch 5">
+          </div>
+          <div class="carousel-item">
+            <img src="men-watch5_2.jpg" class="d-block w-100" alt="Men's Watch 5">
+          </div>
+          <!-- Add more carousel items for Product 5 -->
+        </div>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Digital Sports Watch</h5>
+        <p class="card-text">Digital sports watch with multiple functions.</p>
+        <p class="card-price">$49.99</p>
+        <button class="btn btn-primary btn-block" onclick="addToCart('Digital Sports Watch', 49.99)">
+          Add to Cart <i class="bi bi-cart3"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Product 6 -->
+  <div class="col-md-4 mb-4">
+    <div class="card product-card">
+      <div id="men-watches-carousel6" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="men-watch6.jpg" class="d-block w-100" alt="Men's Watch 6">
+          </div>
+          <div class="carousel-item">
+            <img src="men-watch6_2.jpg" class="d-block w-100" alt="Men's Watch 6">
+          </div>
+          <!-- Add more carousel items for Product 6 -->
+        </div>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Luxury Automatic Watch</h5>
+        <p class="card-text">High-end luxury automatic watch for gentlemen.</p>
+        <p class="card-price">$299.99</p>
+        <button class="btn btn-primary btn-block" onclick="addToCart('Luxury Automatic Watch', 299.99)">
+          Add to Cart <i class="bi bi-cart3"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="container-fluid bg-dark text-white">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Contact Us</h4>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-envelope"></i> Email: <a href="mailto:info@example.com">info@example.com</a></li>
+            <li><i class="fas fa-phone"></i> Phone: <a href="tel:+1234567890">+191 48594834983</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Address: 2342 secotr 4 , jammu, India</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Quick Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="index copy.html">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
