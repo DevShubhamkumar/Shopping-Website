@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style copy.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container nav-container">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" alt="Logo">
+        </a>
+        <div class="d-flex align-items-center">
+          <input type="text" class="form-control search-input" placeholder="Search for items...">
+          <button class="search-btn">Search</button>
+        </div>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="signInDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sign In
+            </a>
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="signInDropdown">
+              <form class="px-4 py-3">
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="username" placeholder="Username">
+                </div>
+                <div class="mb-3">
+                  <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+              </form>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="moreDropdown">
+              <a class="dropdown-item" href="#">Customer Support 24x7</a>
+              <!-- Add more options here -->
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="header">
+      <h1 class="fw-bold glow">Welcome to</h1>
+      <div class="emoji">🛍️</div>
+      <h1 class="fw-bold glow">TrenD FleX</h1>
+      <p class="lead" style="font-size: 1.2rem;">Discover Your Style with Unparalleled Shopping Delights</p>
+    </div>
+    
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="head1.jpg" class="d-block w-100" height="auto" alt="Cloth Shopping Image 1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="fw-bold glow">Explore Trendy Fashion</h2>
+                  <p class="glow">Discover the latest styles and trends for your wardrobe.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="head2.jpg" class="d-block w-100" height="auto" alt="Cloth Shopping Image 2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="fw-bold glow">Elevate Your Style</h2>
+                  <p class="glow">Upgrade your fashion game with high-quality clothing.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="head3.jpg" class="d-block w-100" height="auto" alt="Cloth Shopping Image 3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="fw-bold glow">Unleash Your Creativity</h2>
+                  <p class="glow">Express yourself through unique and customizable fashion pieces.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <!-----sections for cloths------>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <section class="section">
+            <a href="men section.html">
+              <h2 class="glow">Men's Section</h2>
+            </a>
+            <div class="product">
+              <a href="men section.html">
+                <img src="men section.jpg" class="roundborder" alt="Men's Product 1">
+                
+              </a>
+            </div>
+            <!-- Add more men's clothing products here -->
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section class="section">
+            <a href="women section.html">
+              <h2 class="glow">Women's Section</h2>
+            </a>
+            <div class="product">
+              <a href="women section.html">
+                <img src="women section.jpg" class="roundborder" alt="Women's Product 1">
+               
+              </a>
+            </div>
+            <!-- Add more women's clothing products here -->
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section class="section">
+            <a href="childrens sections.html">
+              <h2 class="glow">Children's Section</h2>
+            </a>
+            <div class="product">
+              <a href="childrens sections.html">
+                <img src="kids section.jpg" class="roundborder" alt="Children's Product 1">
+                
+              </a>
+            </div>
+            <!-- Add more children's clothing products here -->
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section class="section">
+            <a href="mobiles section.html">
+              <h2 class="glow">Mobiles Section</h2>
+            </a>
+            <div class="product">
+              <a href="mobiles section.html">
+                <img src="phone section.jpg" class="roundborder" alt="Mobile Phone 1">
+               
+              </a>
+            </div>
+            <!-- Add more mobile products here -->
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section class="section">
+            <a href="watches section.html">
+              <h2 class="glow">Watches Section</h2>
+            </a>
+            <div class="product">
+              <a href="watches section.html">
+                <img src="wathces section.jpg" class="roundborder" alt="Watch 1">
+                
+
+              </a>
+            </div>
+            <!-- Add more watch products here -->
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section class="section">
+            <a href="shoes section.html">
+              <h2 class="glow">Shoes Section</h2>
+            </a>
+            <div class="product">
+              <a href="shoes section.html">
+                <img src="shoes  section.jpg" class="roundborder" alt="Shoes 1">
+               
+              </a>
+            </div>
+            <!-- Add more shoe products here -->
+          </section>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid bg-dark text-white">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Contact Us</h4>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-envelope"></i> Email: <a href="mailto:info@example.com">info@example.com</a></li>
+              <li><i class="fas fa-phone"></i> Phone: <a href="tel:+1234567890">+191 48594834983</a></li>
+              <li><i class="fas fa-map-marker-alt"></i> Address: 2342 secto r 4 , jammu, India</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>Quick Links</h4>
+            <ul class="list-unstyled">
+              <li><a href="index copy.html">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
+-ø
