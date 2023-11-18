@@ -1,0 +1,191 @@
+/* Reset some default browser styles */
+
+/* Add this CSS to your men-tshirt.css file */
+
+/* Heading styles */
+h1 {
+    color: #333;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  h1::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #e74c3c;
+  }
+  
+  h1::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 3px;
+    background-color: #3498db;
+  }
+  
+  
+  
+  body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h1, h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Product card styles */
+  .product-card {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-card .carousel-inner img {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-top: 15px;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
+  .card-price {
+    font-weight: bold;
+    color: #e74c3c;
+    margin-top: 5px;
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    background-color: #c5451a;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Carousel indicator styles */
+  .carousel-indicators {
+    bottom: -15px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .product-card {
+      margin-bottom: 20px;
+    }
+  }
+
+
+
+  /* Footer Styles */
+.footer {
+  background: linear-gradient(135deg, #007bff, #00bfff);
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 36px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+ul.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.list-unstyled li {
+  margin-bottom: 10px;
+}
+
+ul.list-unstyled li i {
+  margin-right: 10px;
+}
+
+/* Add a hover effect for links */
+ul.list-unstyled li a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+ul.list-unstyled li a  {
+  color: #3498db;
+  text-decoration: none;
+ 
+}
+
+
+
+
+
+  
+  
